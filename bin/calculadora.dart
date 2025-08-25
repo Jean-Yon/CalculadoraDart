@@ -18,7 +18,7 @@ void main() {
       break;
     }
 
-// usa o ShuntingYardParser
+
     try {
       Expression exp = parser.parse(entrada);
       ContextModel cm = ContextModel();
